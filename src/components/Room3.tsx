@@ -44,7 +44,7 @@ export function Room3({ username, binary, onSuccess, onFailure }: Room3Props) {
     }, 1500);
   };
 
-  const isCorrect = selected === 442;
+  const isCorrect = selected === 226;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-green-900 p-8 relative overflow-hidden">
