@@ -161,10 +161,7 @@ export function Room4({ username, pressure, binary, roomsSolved, onSuccess, onFa
                   animate={{ x: 0, opacity: 1 }}
                   transition={{ delay: 0.2 }}
                 >
-                  <div className="text-green-400">CURRENT VALUES:</div>
-                  <div className="text-gray-300">Rooms solved: <span className="text-white">{roomsSolved}</span></div>
-                  <div className="text-gray-300">Pressure: <span className="text-white">{pressure}</span> → Last digit: <span className="text-yellow-400">{pressure % 10}</span></div>
-                  <div className="text-gray-300">Binary: <span className="text-white">{binary}</span> → 1s count: <span className="text-cyan-400">{onesCount}</span></div>
+                  
                 </motion.div>
               </motion.div>
             )}
